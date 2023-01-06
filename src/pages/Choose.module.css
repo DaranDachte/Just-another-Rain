@@ -1,0 +1,33 @@
+/* html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.App {
+  display: flex;
+  gap: 20px;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.App-side {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.Topic {
+  height: 64px;
+  overflow: hidden;
+  transition: 1s height;
+} */

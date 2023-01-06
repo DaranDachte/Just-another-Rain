@@ -1,0 +1,8 @@
+.short {
+    cursor: pointer;
+    border: 1px solid rgb(149, 131, 131); 
+    color:rgb(145, 105, 105);
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: inherit;
+}
