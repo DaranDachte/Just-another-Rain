@@ -2,13 +2,13 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import styles from "./About.module.css";
 import ToggleVisibility from "./ToggleVisibility";
-import video from "../img/hard snow.mp4";
+// import video from "../img/hard snow.mp4";
 const About = () => {
   return (
     
     <>
     <Navigation />
-      <video src={video} autoPlay muted loop id="myVideoAbout"></video>
+      {/* <video src={video} autoPlay muted loop id="myVideoAbout"></video> */}
       <div>
         <div>
           <ToggleVisibility title="Short Version">
