@@ -1,5 +1,5 @@
 
-.wrapper{
+.wrapper {
  width: 100px;
  height: 60px;
  position: relative;
@@ -42,9 +42,40 @@
     filter: url(#filter-front);
     box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.4);
   }
-  .text{
+
+  .text {
     position:absolute ;
     left: 50%;
     top:  50%;
+    opacity: 0;
+    animation-name: text-animation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
     /* transform: translate(50%, 50%); */
   }
+
+  
+  .cloudAnimation{
+    animation-name: cloud-animation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+  @keyframes cloud-animation {
+    100% {
+        opacity: 0;      
+    }
+  }
+
+
+  @keyframes text-animation{
+    100% {
+        opacity: 1;
+    }  
+}
+

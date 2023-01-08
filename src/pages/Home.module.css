@@ -1,8 +1,43 @@
-
+/* Presentation purpose*/
   .wrapper{
     width: 100vw;
     height: 100vh;
     background-color: aqua;
   }
 
+
+
+  .cloudList{
+  position: absolute;
+  bottom:100px;
+  left:50%;
+  transform: translateX(-50%);
+  display: flex;
+  animation-name: cloudList-animation;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+
   
+}
+
+  .position{
+    animation-name: clouds-animation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes cloudList-animation{
+    100% {
+        bottom: 60%;
+    }
+  }
+  
+  @keyframes clouds-animation{
+    100% {
+        margin: 0 50px;
+    }
+  }
