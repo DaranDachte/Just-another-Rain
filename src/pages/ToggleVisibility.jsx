@@ -1,22 +1,24 @@
 import React, { useState } from "react";
 import styles from "./toggleVisibility.module.css";
 
-export default function ToggleVisibility({ children, title }) {
-  // React state to manage visibility
-  const [show, setShow] = useState(false);
+const ToggleVisibility = ({
+  index,
+  isActive,
+  setActiveVersion,
+  title,
+  text,
+}) => {
 
-  // function to toggle the boolean value
-  function toggleShow() {
-    setShow(!show);
-  }
-  let buttonText = show ? `${title}` : ` ${title}`;
 
   return (
-    <div>
-      {show && children}
-      <button className={styles.short} onClick={toggleShow}>
-        {buttonText}
-      </button>
+    <div
+      onClick={() => setActiveVersion(index)}
+      onDoubleClick={() => setActiveVersion(false)}
+    >
+      <h3>{title}</h3>
+      {isActive && <div>{text}</div>}
     </div>
   );
-}
+};
+
+export default ToggleVisibility;

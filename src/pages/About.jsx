@@ -2,19 +2,29 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import styles from "./About.module.css";
 import ToggleVisibility from "./ToggleVisibility";
+import { useState } from "react";
 // import video from "../img/hard snow.mp4";
 const About = () => {
+  const [version, setActiveVersion] = useState(0);
   return (
-    
     <>
-    <Navigation />
+      <Navigation />
+
       {/* <video src={video} autoPlay muted loop id="myVideoAbout"></video> */}
       <div>
         <div>
-          <ToggleVisibility title="Short Version">
-            <div className={styles.short}>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+          <div className={styles.aboutProject}>
+            Here you can get an idea of what this project is all about. What
+            prompted me to create it. What is the purpose of the project. How I
+            am trying to achieve this goal.For ease of understanding, I created
+            two versions - short and long.
+          </div>
+          <ToggleVisibility
+            index={1}
+            isActive={version === 1}
+            setActiveVersion={setActiveVersion}
+            title="Short Version"
+            text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
                 est dolorum praesentium temporibus ipsam dolor quod aut at
                 aspernatur quis iusto quaerat doloribus incidunt non a cum,
                 excepturi dolorem maxime? Doloribus atque, fugiat deserunt amet
@@ -26,15 +36,15 @@ const About = () => {
                 aliquid eum, ea vel odit deserunt excepturi officiis mollitia
                 cumque ratione cum quos nisi deleniti sunt itaque voluptates
                 unde reprehenderit necessitatibus non consectetur. Itaque,
-                minima!
-              </p>
-            </div>
-          </ToggleVisibility>
+                minima!"
+          />
 
-          <ToggleVisibility title="Long Version">
-            <div className={styles.long}>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+          <ToggleVisibility
+            index={2}
+            isActive={version === 2}
+            setActiveVersion={setActiveVersion}
+            title="Long Version"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
                 dignissimos ex corporis, quidem architecto itaque perferendis
                 suscipit voluptas quibusdam ipsum veniam autem, quod maxime quo
                 non adipisci qui nisi laudantium impedit quisquam neque iste
@@ -77,10 +87,8 @@ const About = () => {
                 omnis consequuntur expedita amet sunt quis, earum corporis quas
                 magnam, alias nostrum rem sit aut cum consequatur est esse? At
                 excepturi, molestias nostrum id, culpa repellat voluptates ullam
-                obcaecati voluptatem perferendis similique aspernatur quis
-              </p>
-            </div>
-          </ToggleVisibility>
+                obcaecati voluptatem perferendis similique aspernatur quis"
+          />
         </div>
       </div>
     </>
