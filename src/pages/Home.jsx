@@ -14,13 +14,13 @@ export default function Home() {
           <Cloud text="Diary" url="/diary" />
         </div>
         <div className={styles.position}>
-          <Cloud text="Choose your Rain" url="/Choose_your_Rain" />
+          <Cloud text="Choose your Rain" url="/choose_your_Rain" />
         </div>
         <div className={styles.position}>
-          <Cloud text="Find your Rain" url="/Find_your_Rain" />
+          <Cloud text="Ask about Rain" url="/ask_about_rain" />
         </div>
         <div className={styles.position}>
-          <Cloud text="This Rain is Classic" url="/This_Rain_is_Classic" />
+          <Cloud text="Gallery" url="/gallery" />
         </div>
       </div>
       {/* <video src={video} autoPlay muted loop id="myVideo"></video> */}

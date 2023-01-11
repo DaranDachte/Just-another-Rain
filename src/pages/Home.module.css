@@ -8,6 +8,7 @@
 
 
   .cloudList{
+  
   position: absolute;
   bottom:100px;
   left:50%;
@@ -23,6 +24,7 @@
 }
 
   .position{
+   
     animation-name: clouds-animation;
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -38,6 +40,6 @@
   
   @keyframes clouds-animation{
     100% {
-        margin: 0 50px;
+        margin: 0 60px;
     }
   }
