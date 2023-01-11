@@ -4,7 +4,7 @@ import About from "./pages/About";
 import Diary from "./pages/Diary";
 import Choose from "./pages/Choose";
 import FindYourRain from "./pages/FindyourRain";
-import ThisRainisClassic from "./pages/ThisRainisClassic";
+import Gallery from "./pages/Gallery";
 
 const AppRouter = () => {
   return (
@@ -15,7 +15,7 @@ const AppRouter = () => {
         <Route path="/diary" element={<Diary />} />
         <Route path="/Choose_your_Rain" element={<Choose />} />
         <Route path="/Find_your_Rain" element={<FindYourRain />} />
-        <Route path="/This_Rain_is_Classic" element={<ThisRainisClassic />} />
+        <Route path="/Gallery" element={<Gallery />} />
       </Routes>
     </div>
   );

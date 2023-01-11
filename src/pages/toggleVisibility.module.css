@@ -1,8 +1,21 @@
-/* .short {
-    cursor: pointer;
+
+.title{
+    width: 200px;
+    height: ;
+    cursor:pointer;
     border: 1px solid rgb(149, 131, 131); 
     color:rgb(145, 105, 105);
+    background-color: aquamarine;
     border-radius: 5px;
-    padding: 5px 10px;
-    background: inherit;
-} */
+    padding: 5px;
+    margin: 10px;
+ }
+ .text{
+width: 100%wh;
+height: 400px;
+border: 1px solid gray;
+background-color: bisque;
+border-radius: 5px;
+margin: 5px;
+padding: 5px;
+ }

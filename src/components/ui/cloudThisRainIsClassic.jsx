@@ -5,7 +5,7 @@ export default function CloudThisRainisClassic() {
   return (
     <div>
       <div className="this">
-        <Link to="/This_Rain_is_Classic">This_Rain_is_Classic</Link>
+        <Link to="/Gallery">Gallery</Link>
       </div>
       <div className="cloudT" id="cloud-baseT"></div>
       <div className="cloudT" id="cloud-backT"></div>

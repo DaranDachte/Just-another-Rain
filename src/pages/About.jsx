@@ -8,22 +8,23 @@ const About = () => {
   const [version, setActiveVersion] = useState(0);
   return (
     <>
-      <Navigation />
+      <div className={styles.aboutBody}>
+        <Navigation />
 
-      {/* <video src={video} autoPlay muted loop id="myVideoAbout"></video> */}
-      <div>
-        <div>
-          <div className={styles.aboutProject}>
-            Here you can get an idea of what this project is all about. What
-            prompted me to create it. What is the purpose of the project. How I
-            am trying to achieve this goal.For ease of understanding, I created
-            two versions - short and long.
-          </div>
+        {/* <video src={video} autoPlay muted loop id="myVideoAbout"></video> */}
+
+        <div className={styles.aboutProject}>
+          Here you can get an idea of what this project is all about. What
+          prompted me to create it. What is the purpose of the project. How I am
+          trying to achieve this goal.For ease of understanding, I created two
+          versions - short and long.
+        </div>
+        <div className={styles.container}>
           <ToggleVisibility
             index={1}
             isActive={version === 1}
             setActiveVersion={setActiveVersion}
-            title="Short Version"
+            title="Short explanation"
             text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
                 est dolorum praesentium temporibus ipsam dolor quod aut at
                 aspernatur quis iusto quaerat doloribus incidunt non a cum,
@@ -43,7 +44,7 @@ const About = () => {
             index={2}
             isActive={version === 2}
             setActiveVersion={setActiveVersion}
-            title="Long Version"
+            title="Long Explanation"
             text="Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
                 dignissimos ex corporis, quidem architecto itaque perferendis
                 suscipit voluptas quibusdam ipsum veniam autem, quod maxime quo

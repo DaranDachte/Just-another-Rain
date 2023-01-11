@@ -1,6 +1,6 @@
 import Navigation from "../components/Navigation";
 
-const ThisRainisClassic = () => {
+const Gallery = () => {
   return (
     <div>
       <Navigation />
@@ -8,4 +8,4 @@ const ThisRainisClassic = () => {
   );
 };
 
-export default ThisRainisClassic;
+export default Gallery;
