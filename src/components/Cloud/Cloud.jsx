@@ -3,9 +3,6 @@ import styles from "./Cloud.module.css";
 const Cloud = ({ text, url }) => {
   return (
     <div className={styles.wrapper}>
-      <NavLink to={url} className={styles.text}>
-        {text}
-      </NavLink>
       <div className={styles.cloudAnimation}>
         <div className={`${styles.cloud} ${styles.cloudBase}`}></div>
         <div className={`${styles.cloud} ${styles.cloudBack}`}></div>
@@ -50,6 +47,9 @@ const Cloud = ({ text, url }) => {
           </filter>
         </svg>
       </div>
+      <NavLink to={url} className={styles.text}>
+        {text}
+      </NavLink>
     </div>
   );
 };

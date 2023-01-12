@@ -5,12 +5,14 @@ import Diary from "./pages/Diary";
 import Choose from "./pages/Choose";
 import FindYourRain from "./pages/FindyourRain";
 import Gallery from "./pages/Gallery";
+import Welcome from "./pages/Welcome";
 
 const AppRouter = () => {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/welcome" element={<Welcome />} />
         <Route path="/about" element={<About />} />
         <Route path="/diary" element={<Diary />} />
         <Route path="/choose_your_Rain" element={<Choose />} />

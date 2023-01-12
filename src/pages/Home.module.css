@@ -11,8 +11,11 @@
   
   position: absolute;
   bottom:100px;
-  left:50%;
-  transform: translateX(-50%);
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  /* left:50%;
+  transform: translateX(-50%); */
   display: flex;
   animation-name: cloudList-animation;
   animation-duration: 3s;
@@ -40,6 +43,6 @@
   
   @keyframes clouds-animation{
     100% {
-        margin: 0px;
+        margin: 0 50px;
     }
   }

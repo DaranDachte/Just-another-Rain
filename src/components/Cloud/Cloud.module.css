@@ -1,6 +1,6 @@
 
 .wrapper {
- width: 230px;
+ width: 120px;
  height: 60px;
  position: relative;
 }
@@ -45,9 +45,10 @@
 
   .text {
     font-size: 14px;
-    position:absolute ;
+    position:absolute;
     left: 50%;
     top:  50%;
+    width: 100%;
     opacity: 0;
     animation-name: text-animation;
     animation-duration: 3s;
