@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 import styles from "./About.module.css";
 import ToggleVisibility from "./ToggleVisibility";
 import { useState } from "react";
-// import video from "../img/hard snow.mp4";
+import hardSnow from "../img/snow.mp4";
 const About = () => {
   const [version, setActiveVersion] = useState(0);
   return (
@@ -11,12 +11,12 @@ const About = () => {
       <div className={styles.aboutBody}>
         <Navigation />
 
-        {/* <video src={video} autoPlay muted loop id="myVideoAbout"></video> */}
+        <video className={styles.video} src={hardSnow} autoPlay muted loop ></video>
 
         <div className={styles.aboutProject}>
           Here you can get an idea of what this project is all about. What
           prompted me to create it. What is the purpose of the project. How I am
-          trying to achieve this goal.For ease of understanding, I created two
+          trying to achieve this goal. For ease of understanding, I created two
           versions - short and long.
         </div>
         <div className={styles.container}>
