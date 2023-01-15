@@ -11,13 +11,19 @@ const About = () => {
       <div className={styles.aboutBody}>
         <Navigation />
 
-        <video className={styles.video} src={hardSnow} autoPlay muted loop ></video>
+        <video
+          className={styles.video}
+          src={hardSnow}
+          autoPlay
+          muted
+          loop
+        ></video>
 
         <div className={styles.aboutProject}>
           Here you can get an idea of what this project is all about. What
           prompted me to create it. What is the purpose of the project. How I am
-          trying to achieve this goal. For ease of understanding, I created two
-          versions - short and long.
+          trying to achieve this goal. For ease of explanation I created two
+          versions.
         </div>
         <div className={styles.container}>
           <ToggleVisibility
