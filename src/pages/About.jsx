@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 import styles from "./About.module.css";
 import ToggleVisibility from "./ToggleVisibility";
 import { useState } from "react";
-import hardSnow from "../img/snow.mp4";
+import hardSnow from "../assets/videos/hard_snow.mp4";
 const About = () => {
   const [version, setActiveVersion] = useState(0);
   return (
@@ -23,7 +23,7 @@ const About = () => {
           Here you can get an idea of what this project is all about. What
           prompted me to create it. What is the purpose of the project. How I am
           trying to achieve this goal. For ease of explanation I created two
-          versions.
+          versions - short and long.
         </div>
         <div className={styles.container}>
           <ToggleVisibility

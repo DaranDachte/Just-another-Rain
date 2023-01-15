@@ -1,28 +1,30 @@
 import styles from "./Welcome.module.css";
 import { useNavigate } from "react-router-dom";
+import video from "../assets/videos/just.mp4";
 
 const Welcome = () => {
   const navigate = useNavigate();
 
+  const delay = (func, time) =>
+    setTimeout(() => {
+      func();
+    }, time);
+
+  const naviateToHome = () => navigate("/home");
+
+  const onAnimationEndHandler = () => delay(naviateToHome, 3000);
+
   return (
     <div>
       <div className={styles["video-bg"]}>
-        <video
-          src="./img/just.mp4"
-          type="video/mp4"
-          autoplay
-          muted
-          loop
-        ></video>
-        <div className={styles["video-bg_content"]}>
-          <h1 onAnimationEnd={() => navigate("/")}>
-            <span>J</span> <span>U</span> <span>S</span> <span>T</span>{" "}
-            <span> </span> <span>A</span> <span>N</span> <span>O</span>{" "}
-            <span>T</span> <span>H</span> <span>E</span> <span>R</span>{" "}
-            <span></span> <span>R</span> <span>A</span> <span>I</span>{" "}
-            <span>N</span>
-          </h1>
-        </div>
+        <video src={video} muted autoPlay loop></video>
+        <h1 className={styles.welcome} onAnimationEnd={onAnimationEndHandler}>
+          <span>J</span> <span>U</span> <span>S</span> <span>T</span>{" "}
+          <span> </span> <span>A</span> <span>N</span> <span>O</span>{" "}
+          <span>T</span> <span>H</span> <span>E</span> <span>R</span>{" "}
+          <span></span> <span>R</span> <span>A</span> <span>I</span>{" "}
+          <span>N</span>
+        </h1>
       </div>
       {/* <div class="audio">
         <audio controls loop>

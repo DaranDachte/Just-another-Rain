@@ -4,7 +4,7 @@ import styles from "./Navigation.module.css";
 const Navigation = () => {
   return (
     <nav className={styles.wrapper}>
-      <NavLink to="/">Home</NavLink>
+      <NavLink to="/home">Home</NavLink>
       <NavLink to="/about">About</NavLink>
       <NavLink to="/diary">Diary</NavLink>
       <NavLink to="/Choose_your_Rain">Choose Your Rain</NavLink>
