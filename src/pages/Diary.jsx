@@ -1,22 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import Navigation from "../components/Navigation";
-// import video1 from "../img/toomuch.mp4";
-// import video2 from "../img/RainHolland.mp4";
-// import video3 from "../img/KyrgystanRain.mp4";
-// import video4 from "../img/AustralliaRain.mp4";
-// import video5 from "../img/Grow up.mp4";
-import "./Diary.module.css";
+import video1 from "../assets/videos/too_much.mp4";
+import video2 from "../assets/videos/rain_holland.mp4";
+import video3 from "../assets/videos/kyrgystan_rain.mp4";
+import video4 from "../assets/videos/australia_rain.mp4";
+import video5 from "../assets/videos/grow_up.mp4";
+import styles from "./Diary.module.css";
+import { ReactComponent as HollandFlag } from "../assets/img/holland_flag.svg";
 
 export default function Diary() {
+  const [isAnimation, setIsAnimation] = useState(false);
+  const onStartHandler = (event) => {
+    console.log(event.target.currentTime);
+    if (event.target.currentTime<1) {
+      setIsAnimation(true);
+    }
+  };
+
+  const onStopHandler = () => {
+    setIsAnimation(false);
+  };
+
   return (
-    <>
-    <Navigation />
-      <div className="tomuch">
-        <div className ="tomuch_content">
-        🌞️
-        </div>
-        {/* <video src={video1} muted controls id="myVideoDiary"></video> */}
-        <h1 class="rain">
+    <div className={styles.wrapper}>
+      <Navigation />
+      <div className={styles.diaryVideoWrapper}>
+        <video className={styles.diaryVideo} src={video1} muted controls />
+        <h1 className={styles.rain}>
           <span>
             I have been living in Germany for several years. I can't get used to
             the German rain. It rains too much here. It goes on for several days
@@ -30,25 +40,30 @@ export default function Diary() {
           </span>
         </h1>
       </div>
-      <div className="holland">
-        <div className="flag">
-        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 9 6">
-<rect fill="#21468B" width="9" height="6"/>
-<rect fill="#FFF" width="9" height="4"/>
-<rect fill="#AE1C28" width="9" height="2"/>
-</svg>
-        </div>
-        {/* <video src={video2} controls muted id="myVideoDiary"></video> */}
+      <div className={styles.diaryVideoWrapper}>
+        <HollandFlag
+          className={`${styles.hollandFlag} ${
+            isAnimation ? styles.hollandFlagAppearAnimation : ""
+          }`}
+        />
+        <video
+          onPlay={onStartHandler}
+          onPause={onStopHandler}
+          className={styles.diaryVideo}
+          src={video2}
+          controls
+          muted
+        />
       </div>
-      <div className="kyrgystan">
-        {/* <video src={video3} controls muted id="myVideoDiary"></video> */}
+      <div className={styles.diaryVideoWrapper}>
+        <video className={styles.diaryVideo} src={video3} controls muted />
       </div>
-      <div className="australia">
-        {/* <video src={video4} controls muted id="myVideoDiary"></video> */}
+      <div className={styles.diaryVideoWrapper}>
+        <video className={styles.diaryVideo} src={video4} controls muted />
       </div>
-      <div className="growup">
-        {/* <video src={video5} controls muted id="myVideoDiary"></video> */}
+      <div className={styles.diaryVideoWrapper}>
+        <video className={styles.diaryVideo} src={video5} controls muted />
       </div>
-    </>
+    </div>
   );
 }

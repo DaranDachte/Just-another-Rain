@@ -1,65 +1,60 @@
-#myVideoDiary {
-    position: relative;;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-  }
+.wrapper{
+    position: relative;
+}
+
+.diaryVideo{
+    width: 100%;
+    margin-top: -20px;
+
+}
+
+.diaryVideoWrapper{
+    position:relative;
+}
+
 .rain{
     position: absolute;
-    z-index: 2;
-    display: block;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    top:600px;
+    top:500px;
     color: wheat;
 }
 
-
-
     @keyframes scroll {
         0% {
-            transform: translate(0, 0);
+            transform: translateX(0);
                     }
-    
 
         100% {
-            transform: translate(-100%, 0);
+            transform: translateX(-100%);
         }
     }
 
     .rain span {
         display: inline-block;
-        padding-left: 100%;
         animation: scroll 65s infinite linear;
-        transition-delay: 3s;
+    } 
+    
+    .hollandFlag{
+        position: absolute;
+        opacity: 0;
     }
 
-   .tomuch_content{
-        position:absolute;
-        padding-left: 800px;
-        padding-top: 20px;
-        z-index: 3;
-        font-size: 150px;
-        color: gold;
-        justify-content:center;
-        align-items:center;
-        top: 50px;
-        left: 700px;
-        }
-        
-        .tomuch_content { display:inline-block; animation:float 4s ease-in-out infinite; }
-        @keyframes float {
-        0%,100%{ transform:none; }
-        33%{ transform:translateX(200px); }
-        66%{ transform:translateX(200px); }
+    .hollandFlagAppearAnimation{
+        animation-name: hollandAnimation;
+        animation-duration: 8s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes hollandAnimation {
+            50% {
+            opacity: 0.9;
+            }
+            100%{
+                opacity:0;
+            }
         }
 
-   .flag{
- position: absolute;
- z-index: 3;
- left:1500px;
- top:1150px
-   }
+    
