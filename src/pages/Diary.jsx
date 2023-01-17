@@ -16,10 +16,7 @@ export default function Diary() {
   const onStartHandler = (event) => {
     console.log(event.target.currentTime);
     if (event.target.currentTime < 1) {
-      setIsAnimation(true)};
-      if (event.target.currentTime = 20) {
-        setIsTulip(true)
-      
+      setIsAnimation(true);
     }
   };
 
@@ -64,7 +61,7 @@ export default function Diary() {
           }`}
         />
         <Tulip
-          className={`${styles.tulip} ${isTulip ? styles.tulipAnimation : ""}`}
+          className={`${styles.tulip} ${isAnimation? styles.tulipAnimation : ""}`}
         />
         <video
           onPlay={onStartHandler}

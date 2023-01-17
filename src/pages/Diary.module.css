@@ -43,9 +43,10 @@
 
     .hollandFlagAppearAnimation{
         animation-name: hollandAnimation;
-        animation-duration: 8s;
+        animation-duration: 9s;
         animation-timing-function: linear;
         animation-fill-mode: forwards;
+       
     }
 
     @keyframes hollandAnimation {
@@ -61,14 +62,16 @@
         .tulip{
             position: absolute;
             opacity: 0;
+            top: 350px;
         }
 
        
         .tulipAnimation{
             animation-name: tulipAnimation;
-            animation-duration: 8s;
+            animation-duration: 10s;
             animation-timing-function: linear;
             animation-fill-mode: forwards;
+            animation-delay: 20s;
         }
 
         @keyframes tulipAnimation {
