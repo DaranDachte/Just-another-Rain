@@ -58,3 +58,24 @@
         }
 
     
+        .tulip{
+            position: absolute;
+            opacity: 0;
+        }
+
+       
+        .tulipAnimation{
+            animation-name: tulipAnimation;
+            animation-duration: 8s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes tulipAnimation {
+            50% {
+            opacity: 0.9;
+            }
+            100%{
+                opacity:0;
+            }
+        }

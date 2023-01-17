@@ -7,14 +7,19 @@ import video4 from "../assets/videos/australia_rain.mp4";
 import video5 from "../assets/videos/grow_up.mp4";
 import styles from "./Diary.module.css";
 import { ReactComponent as HollandFlag } from "../assets/img/holland_flag.svg";
+import { ReactComponent as Tulip } from "../assets/img/tulip.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Diary() {
   const [isAnimation, setIsAnimation] = useState(false);
+  const [isTulip, setIsTulip] = useState(false);
   const onStartHandler = (event) => {
     console.log(event.target.currentTime);
     if (event.target.currentTime < 1) {
-      setIsAnimation(true);
+      setIsAnimation(true)};
+      if (event.target.currentTime = 20) {
+        setIsTulip(true)
+      
     }
   };
 
@@ -57,6 +62,9 @@ export default function Diary() {
           className={`${styles.hollandFlag} ${
             isAnimation ? styles.hollandFlagAppearAnimation : ""
           }`}
+        />
+        <Tulip
+          className={`${styles.tulip} ${isTulip ? styles.tulipAnimation : ""}`}
         />
         <video
           onPlay={onStartHandler}
