@@ -8,13 +8,11 @@ import video5 from "../assets/videos/grow_up.mp4";
 import styles from "./Diary.module.css";
 import { ReactComponent as HollandFlag } from "../assets/img/holland_flag.svg";
 import { ReactComponent as Tulip } from "../assets/img/tulip.svg";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { ReactComponent as Sun } from "../assets/img/sun.svg";
 
 export default function Diary() {
   const [isAnimation, setIsAnimation] = useState(false);
-  const [isTulip, setIsTulip] = useState(false);
   const onStartHandler = (event) => {
-    console.log(event.target.currentTime);
     if (event.target.currentTime < 1) {
       setIsAnimation(true);
     }
@@ -29,17 +27,8 @@ export default function Diary() {
       <Navigation />
 
       <div className={styles.diaryVideoWrapper}>
+        <Sun className={styles.sun} />
         <video className={styles.diaryVideo} src={video1} muted controls />
-        <Link
-          activeClass="active"
-          to="section1"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Section 1
-        </Link>
         <h1 className={styles.rain}>
           <span>
             I have been living in Germany for several years. I can't get used to
@@ -61,7 +50,9 @@ export default function Diary() {
           }`}
         />
         <Tulip
-          className={`${styles.tulip} ${isAnimation? styles.tulipAnimation : ""}`}
+          className={`${styles.tulip} ${
+            isAnimation ? styles.tulipAnimation : ""
+          }`}
         />
         <video
           onPlay={onStartHandler}
@@ -71,55 +62,15 @@ export default function Diary() {
           controls
           muted
         />
-        <Link
-          activeClass="active"
-          to="section2"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Section 2
-        </Link>
       </div>
       <div className={styles.diaryVideoWrapper}>
         <video className={styles.diaryVideo} src={video3} controls muted />
-        <Link
-          activeClass="active"
-          to="section3"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Section 3
-        </Link>
       </div>
       <div className={styles.diaryVideoWrapper}>
         <video className={styles.diaryVideo} src={video4} controls muted />
-        <Link
-          activeClass="active"
-          to="section4"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Section 4
-        </Link>
       </div>
       <div className={styles.diaryVideoWrapper}>
         <video className={styles.diaryVideo} src={video5} controls muted />
-        <Link
-          activeClass="active"
-          to="section5"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Section 5
-        </Link>
       </div>
     </div>
   );
