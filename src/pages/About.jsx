@@ -31,19 +31,22 @@ const About = () => {
             isActive={version === 1}
             setActiveVersion={setActiveVersion}
             title="Short explanation"
-            text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
-                est dolorum praesentium temporibus ipsam dolor quod aut at
-                aspernatur quis iusto quaerat doloribus incidunt non a cum,
-                excepturi dolorem maxime? Doloribus atque, fugiat deserunt amet
-                dolorem eveniet at necessitatibus vitae corrupti, reprehenderit,
-                iste nostrum nobis ullam velit harum laudantium quam veniam ab
-                quaerat! Modi provident perferendis quod sit libero vitae
-                corporis atque, ea distinctio nesciunt perspiciatis debitis
-                harum dolores voluptate qui quibusdam beatae! Laudantium ipsam
-                aliquid eum, ea vel odit deserunt excepturi officiis mollitia
-                cumque ratione cum quos nisi deleniti sunt itaque voluptates
-                unde reprehenderit necessitatibus non consectetur. Itaque,
-                minima!"
+            text="The purpose of this project is to create a website to help refugees and immigrants in Germany to adapt. A special feature of the project is that the site should not only contain useful information, but also help people visually to overcome depression. For this purpose it has to be designed and built accordingly.
+            The main theme is 'German rain'. It is the one that, as experience shows, makes it very difficult for the mental health of those coming to Germany. And it is the symbol of depression, a depressed state and as a  consequence - failure. One of the aims of the project is to show people that it is just rain and nothing more. And in this weather, you can be successful and enjoy life
+            The site is divided into several pages, each of which has a specific purpose. 
+            The following pages have been created so far:
+            'About' - On this page you are now, there are two (short and full) descriptions of the project 
+            
+            'Diary' - The point of this page is this. It is a video diary. Initially (in the first video) it tells the story of a man who is depressed because of the German rain. And he wants to talk to people who have already overcome this problem. They give their opinion and advice. That is, every video contains positive experiences that can be helpful to those who are in difficulty. 
+            I would like to specify that at this stage this page is a prototype of a future project. That is, in the future I hope to use more professional tools to create editing and application of visual effects. Simply speaking the videos will look more 'expensive and of high quality'. Furthermore, if funding can be secured, psychologists will be involved in the creation of each video. 
+            
+            The 'Gallery' page shows short stories of people who were forced to become refugees at an advanced age. And in their new country, they have achieved success and gained the respect of those around them. It is common for refugees to be depressed because they are 30 or 50 years old, because their lives have 'passed them by', and because they have no chance of success in Germany.  The point of this page is to show refugees that they are not the first people to face this problem. And it is possible to become a successful and respected person by starting from a clean slate. 
+            
+            The 'Questions and Answers' page is meant to help people with answers to frequently asked questions - how to learn German, how to find a job, where to turn if you are depressed. Also on this page there is a form that everyone can fill in to ask a question and send it to the site and get an answer later.
+            
+            The 'News' page was designed to provide positive news about refugees.  It will help refugees themselves to be on a positive note and it will also help others to see refugees in a positive light.
+            
+            Other pages may be added to in the future. For example, creating various databases or education pages. But this will require a serious investment and may be possible once additional funding is found."
           />
 
           <ToggleVisibility
