@@ -21,13 +21,13 @@ body {
     width: 250px;
     color: #1A5276;
     background-color: #139639;
-    margin-right:10px;
-}
+    }
 
 .input {
     width: 100%;
     padding: 8px;
     border-radius: 5px;
+    border:none;
     box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.7);
 }
 
@@ -54,6 +54,7 @@ body {
     cursor: pointer;
     box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.7);
     border-radius: 5px;
+    border:none;
 }
 
 .error{

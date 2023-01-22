@@ -2,7 +2,7 @@ import { useState } from "react";
 import Form from "../components/Form";
 import QuestionList from "../components/QuestionList";
 import Navigation from "../components/Navigation";
-import styles from "./FindYourRain.module.css";
+import styles from "./QuestionsAndAnswers.module.css";
 
 const FindYourRain = () => {
   const [clicked, setClicked] = useState(false);
@@ -12,7 +12,7 @@ const FindYourRain = () => {
       <Navigation />
       <QuestionList />
       <div>
-        <button
+        <button className={styles.askButton}
           onClick={() => setClicked(true)}
           onDoubleClick={() => setClicked(false)}
         >

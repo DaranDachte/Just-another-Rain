@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Diary from "./pages/Diary";
 import Choose from "./pages/Choose";
-import FindYourRain from "./pages/FindYourRain";
+import QuestionsAndAnswers from "./pages/QuestionsAndAnswers";
 import Gallery from "./pages/Gallery";
 import Welcome from "./pages/Welcome";
 
@@ -16,7 +16,7 @@ const AppRouter = () => {
         <Route path="/about" element={<About />} />
         <Route path="/diary" element={<Diary />} />
         <Route path="/choose_your_Rain" element={<Choose />} />
-        <Route path="/find_your_Rain" element={<FindYourRain />} />
+        <Route path="/questions_and_answers" element={<QuestionsAndAnswers />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </div>

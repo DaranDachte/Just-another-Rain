@@ -42,4 +42,6 @@
 
     .pIndent{
         text-indent: 20px;
+        margin:5px;
+        font-size:14px
     }

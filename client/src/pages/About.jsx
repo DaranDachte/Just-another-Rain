@@ -53,8 +53,7 @@ const About = () => {
                   pages, each of which has a specific purpose.
                 </p>
                 <p className={styles.pIndent}>
-                  The following pages have been created so far: <NavLink to="/about">About</NavLink> - On
-                  thispage you are now, there are two (short and full)
+                  The following pages have been created so far: <NavLink to="/about">About</NavLink> - On this page you are now, there are two (short and full)
                   descriptions of the project.
                 </p>
                 <p className={styles.pIndent}>
@@ -85,8 +84,7 @@ const About = () => {
                   starting from a clean slate.
                 </p>
                 <p className={styles.pIndent}>
-                  The <NavLink to="/Choose_your_Rain">Choose_your_Rain</NavLink> page is meant to help people with
-                  answers to frequently asked questions - how to learn German,
+                  The <NavLink to="/questions_and_answers">Questions and Answers</NavLink> page is meant to help people with answers to frequently asked questions - how to learn German,
                   how to find a job, where to turn if you are depressed. Also on
                   this page there is a form that everyone can fill in to ask a
                   question and send it to the site and get an answer later.

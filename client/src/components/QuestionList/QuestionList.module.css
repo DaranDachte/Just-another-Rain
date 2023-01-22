@@ -15,10 +15,10 @@ body{
 
     .attention{
         width: 200px;
-        height: 100px;
+        height: 80px;
         position: absolute;
         margin-left: 1020px;
-        margin-top: 460px;
+        margin-top: 500px;
         border-radius: 5px;
         background-color: #139639;
         padding: 10px;

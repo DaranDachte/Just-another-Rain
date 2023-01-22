@@ -65,7 +65,6 @@ const QuestionList = () => {
         />
       </div>
       <div className={styles.attention}>
-        {" "}
         <p>
           Warning! We do not store your data, nor do we pass it on to
           individuals or organizations. Your name is only needed so that we know

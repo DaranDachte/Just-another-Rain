@@ -14,7 +14,7 @@ const Card = ({ text, photo, index, onClickHandler, isActive }) => {
         <img src={photo} alt="" className={styles.photo_img} />
       </div>
       <div>
-        <p>{isActive ? text : text.slice(0, 101) + "..."}</p>
+        <p className={styles.pCard}>{isActive ? text : text.slice(0, 101) + "..."}</p>
       </div>
     </div>
   );
