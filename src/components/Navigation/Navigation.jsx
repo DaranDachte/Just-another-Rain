@@ -9,7 +9,7 @@ const Navigation = () => {
       <NavLink to="/diary">Diary</NavLink>
       <NavLink to="/Choose_your_Rain">Choose Your Rain</NavLink>
       <NavLink to="/Find_your_Rain">Find Your Rain</NavLink>{" "}
-      <NavLink to="/Gallery">Gallery</NavLink>{" "}
+      <NavLink to="/gallery">Gallery</NavLink>{" "}
     </nav>
   );
 };

@@ -9,9 +9,12 @@ import styles from "./Diary.module.css";
 import { ReactComponent as HollandFlag } from "../assets/img/holland_flag.svg";
 import { ReactComponent as Tulip } from "../assets/img/tulip.svg";
 import { ReactComponent as Sun } from "../assets/img/sun.svg";
+import { ReactComponent as ScrollDown } from "../assets/img/scrolldown.svg";
 
 export default function Diary() {
   const [isAnimation, setIsAnimation] = useState(false);
+  const [isScrollVisible, setIsScrollVisible] = useState(false);
+
   const onStartHandler = (event) => {
     if (event.target.currentTime < 1) {
       setIsAnimation(true);
@@ -22,13 +25,23 @@ export default function Diary() {
     setIsAnimation(false);
   };
 
+  const onEndedHandler = (e) => {
+    setIsScrollVisible(true);
+  };
+
   return (
     <div className={styles.wrapper}>
       <Navigation />
 
       <div className={styles.diaryVideoWrapper}>
         <Sun className={styles.sun} />
-        <video className={styles.diaryVideo} src={video1} muted controls />
+        <video
+          className={styles.diaryVideo}
+          src={video1}
+          muted
+          controls
+          onEnded={onEndedHandler}
+        />
         <h1 className={styles.rain}>
           <span>
             I have been living in Germany for several years. I can't get used to
@@ -42,6 +55,7 @@ export default function Diary() {
             here. How to become happy under this rain?{" "}
           </span>
         </h1>
+        {isScrollVisible && <ScrollDown className={styles.scrollDown} />}
       </div>
       <div className={styles.diaryVideoWrapper}>
         <HollandFlag
@@ -61,13 +75,29 @@ export default function Diary() {
           src={video2}
           controls
           muted
+          onEnded={onEndedHandler}
         />
+        {isScrollVisible && <ScrollDown className={styles.scrollDown} />}
       </div>
       <div className={styles.diaryVideoWrapper}>
-        <video className={styles.diaryVideo} src={video3} controls muted />
+        <video
+          className={styles.diaryVideo}
+          src={video3}
+          controls
+          muted
+          onEnded={onEndedHandler}
+        />
+        {isScrollVisible && <ScrollDown className={styles.scrollDown} />}
       </div>
       <div className={styles.diaryVideoWrapper}>
-        <video className={styles.diaryVideo} src={video4} controls muted />
+        <video
+          className={styles.diaryVideo}
+          src={video4}
+          controls
+          muted
+          onEnded={onEndedHandler}
+        />
+        {isScrollVisible && <ScrollDown className={styles.scrollDown} />}
       </div>
       <div className={styles.diaryVideoWrapper}>
         <video className={styles.diaryVideo} src={video5} controls muted />
