@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Diary from "./pages/Diary";
 import Choose from "./pages/Choose";
-import FindYourRain from "./pages/FindyourRain";
+import FindYourRain from "./pages/FindYourRain";
 import Gallery from "./pages/Gallery";
 import Welcome from "./pages/Welcome";
 
