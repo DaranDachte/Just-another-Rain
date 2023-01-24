@@ -1,13 +1,13 @@
 import React, { useState, useRef } from "react";
 import cn from "classnames";
 import * as yup from "yup";
-import "./Choose.module.css";
+import styles from "./TestsNewsDonations.module.css";
 import Navigation from "../components/Navigation";
-const Choose = () => {
+const TestsNewsDonations = () => {
   return (
     <div>
       <Navigation />
     </div>
   );
 };
-export default Choose;
+export default TestsNewsDonations;

@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Diary from "./pages/Diary";
-import Choose from "./pages/Choose";
+import TestsNewsDonations from "./pages/TestsNewsDonations";
 import QuestionsAndAnswers from "./pages/QuestionsAndAnswers";
 import Gallery from "./pages/Gallery";
 import Welcome from "./pages/Welcome";
@@ -15,7 +15,7 @@ const AppRouter = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/diary" element={<Diary />} />
-        <Route path="/choose_your_Rain" element={<Choose />} />
+        <Route path="/tests_news_donations" element={<TestsNewsDonations />} />
         <Route path="/questions_and_answers" element={<QuestionsAndAnswers />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
