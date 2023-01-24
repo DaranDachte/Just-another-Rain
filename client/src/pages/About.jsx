@@ -53,8 +53,10 @@ const About = () => {
                   pages, each of which has a specific purpose.
                 </p>
                 <p className={styles.pIndent}>
-                  The following pages have been created so far: <NavLink to="/about">About</NavLink> - On this page you are now, there are two (short and full)
-                  descriptions of the project.
+                  The following pages have been created so far:{" "}
+                  <NavLink to="/about">About</NavLink> - On this page you are
+                  now, there are two (short and full) descriptions of the
+                  project.
                 </p>
                 <p className={styles.pIndent}>
                   <NavLink to="/diary">Diary</NavLink> - The point of this page
@@ -72,31 +74,46 @@ const About = () => {
                   psychologists will be involved in the creation of each video.
                 </p>
                 <p className={styles.pIndent}>
-                  The <NavLink to="/gallery">Gallery</NavLink> page shows short stories of people who were
-                  forced to become refugees at an advanced age.And in their new
-                  country, they have achieved success and gained the respect of
-                  those around them. It is common for refugees to be depressed
-                  because they are 30 or 50 years old, because their lives have
-                  'passed them by', and because they have no chance of success
-                  in Germany. The point of this page is to show refugees that
-                  they are not the first people to face this problem. And it is
-                  possible to become a successful and respected person by
-                  starting from a clean slate.
+                  The <NavLink to="/gallery">Gallery</NavLink> page shows short
+                  stories of people who were forced to become refugees at an
+                  advanced age.And in their new country, they have achieved
+                  success and gained the respect of those around them. It is
+                  common for refugees to be depressed because they are 30 or 50
+                  years old, because their lives have 'passed them by', and
+                  because they have no chance of success in Germany. The point
+                  of this page is to show refugees that they are not the first
+                  people to face this problem. And it is possible to become a
+                  successful and respected person by starting from a clean
+                  slate.
                 </p>
                 <p className={styles.pIndent}>
-                  The <NavLink to="/questions_and_answers">Questions and Answers</NavLink> page is meant to help people with answers to frequently asked questions - how to learn German,
-                  how to find a job, where to turn if you are depressed. Also on
-                  this page there is a form that everyone can fill in to ask a
-                  question and send it to the site and get an answer later.
+                  The{" "}
+                  <NavLink to="/questions_and_answers">
+                    Questions and Answers
+                  </NavLink>{" "}
+                  page is meant to help people with answers to frequently asked
+                  questions - how to learn German, how to find a job, where to
+                  turn if you are depressed. Also on this page there is a form
+                  that everyone can fill in to ask a question and send it to the
+                  site and get an answer later.
                 </p>
                 <p className={styles.pIndent}>
-                  The <NavLink to="/diary">Diary</NavLink> page was designed to provide positive news about
-                  refugees. It will help refugees themselves to be on a positive
-                  note and it will also help others to see refugees in a
-                  positive light. Other pages may be added to in the future. For
-                  example, creating various databases or education pages. But
-                  this will require a serious investment and may be possible
-                  once additional funding is found.
+                  The{" "}
+                  <NavLink to="/tests_news_donations">
+                    Tests News Donations
+                  </NavLink>{" "}
+                  page was designed to provide positive news about refugees. It
+                  will help refugees themselves to be on a positive note and it
+                  will also help others to see refugees in a positive light.
+                  Also on this page, anyone can find links to various online
+                  tests to determine depression. This is necessary because many
+                  refugees suffer from various forms of depression without even
+                  realising it. There is also a form for donations if anyone
+                  would like to help this project develop. Other pages may be
+                  added to in the future. For example, creating various
+                  databases or education pages. But this will require a serious
+                  investment and may be possible once additional funding is
+                  found.
                 </p>
               </>
             }

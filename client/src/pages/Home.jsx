@@ -14,7 +14,7 @@ export default function Home() {
           <Cloud text="Diary" url="/diary" />
         </div>
         <div className={styles.position}>
-          <Cloud text="Choose your Rain" url="/choose_your_Rain" />
+          <Cloud text="Tests News Donations" url="/tests_news_donations" />
         </div>
         <div className={styles.position}>
           <Cloud text="Questions and Answers" url="/questions_and_answers" />

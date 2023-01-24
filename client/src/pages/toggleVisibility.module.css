@@ -1,7 +1,6 @@
 
 .title{
-    width: 170px;
-    height: ;
+    width: 120px;
     cursor:pointer;
     border: 1px solid rgb(149, 131, 131); 
     color:rgb(145, 105, 105);
@@ -17,7 +16,7 @@ width: 100%wh;
 height: 350px;
 border: 1px solid gray;
 background-color: bisque;
-opacity: 0.7;
+opacity: 0.8;
 border-radius: 5px;
 margin: 5px;
 padding: 5px;
