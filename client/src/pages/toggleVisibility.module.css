@@ -13,7 +13,7 @@
  }
  .text{
 width: 100%wh;
-height: 350px;
+/* height: 350px; */
 border: 1px solid gray;
 background-color: bisque;
 opacity: 0.8;

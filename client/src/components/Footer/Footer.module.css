@@ -1,0 +1,22 @@
+.wrapper{
+display: flex;
+/* height: 70px; */
+
+}
+
+.childLeft{
+    flex:1;
+}
+.childRight{
+    flex:1;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.linkText{
+    margin-left: 5px;
+}

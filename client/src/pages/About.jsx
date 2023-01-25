@@ -126,7 +126,7 @@ const About = () => {
             title="Long Explanation"
             text={
               <>
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   "Hello, my name is Daran Daсhte. It so happens that I have
                   been a refugee twice in my life. The first time was when I was
