@@ -2,12 +2,14 @@ import { useState } from "react";
 import Form from "../components/Form";
 import QuestionList from "../components/QuestionList";
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer/Footer";
 import styles from "./QuestionsAndAnswers.module.css";
 
 const FindYourRain = () => {
   const [clicked, setClicked] = useState(false);
 
   return (
+    <>
     <div className={styles.wrapper}>
       <Navigation />
       <QuestionList />
@@ -21,6 +23,8 @@ const FindYourRain = () => {
         {clicked && <Form />}
       </div>
     </div>
+    <Footer />
+    </>
   );
 };
 

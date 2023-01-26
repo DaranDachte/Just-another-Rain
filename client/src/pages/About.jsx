@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer/Footer";
 import styles from "./About.module.css";
 import ToggleVisibility from "./ToggleVisibility";
 import { useState } from "react";
@@ -303,6 +304,7 @@ const About = () => {
           />
         </div>
       </div>
+      <Footer />
     </>
   );
 };
