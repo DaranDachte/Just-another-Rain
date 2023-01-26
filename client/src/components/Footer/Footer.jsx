@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.childLeft}>
-        <p>Created by Daran Dachte</p> 
+        <p className={styles.flicker}>Created by Daran Dachte</p> 
         </div>
         <div className={styles.childGit}><a
           className={styles.link}
