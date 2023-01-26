@@ -140,7 +140,7 @@ const About = () => {
                   understand the world around you all over again and learn to
                   live.
                 </p>
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   The second time I became a refugee was when I was almost
                   forty. It was because of my involvement in a protest against
@@ -149,7 +149,7 @@ const About = () => {
                   short time. Then the moment came when I had to leave my
                   homeland and become a refugee again.{" "}
                 </p>
-                <p>
+                <p className={styles.pIndent}>
                   The second time was somewhat easy for me. I was an adult, and
                   I knew that I would have to fight a lot, and no one would
                   guarantee me victory. It strips you of unnecessary illusions.
@@ -162,7 +162,7 @@ const About = () => {
                   where you can breathe peacefully during the day and sleep
                   soundly at night.
                 </p>
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   Being a refugee is always difficult. You find yourself in a
                   new place where, frankly, you are not welcome. Even if it is
@@ -170,7 +170,7 @@ const About = () => {
                   know anyone, where they speak a foreign language... it becomes
                   the test of your life where your every ability will be tested.
                 </p>{" "}
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   Yes, in the beginning you feel good because you find yourself
                   in a safe place. But then there is a period when every day you
@@ -182,14 +182,14 @@ const About = () => {
                   single one who has started his life with nothing but joy and
                   happiness.
                 </p>{" "}
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   In this daily struggle, you make mistakes that can be fatal.
                   Sometimes these mistakes can even lead to your deportation
                   from this country, and very often it means the end of all your
                   hopes for a better life.
                 </p>{" "}
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   I have been in contact with hundreds of people who have moved
                   to Germany. I helped them as a translator, as an advisor -
@@ -198,7 +198,7 @@ const About = () => {
                   succeeded and are now living a happy life. Some broke down,
                   achieved nothing and were deported.
                 </p>{" "}
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   After a while I realized that many refugees make the same
                   mistakes. There are not many of them, they can be reduced to a
@@ -207,7 +207,7 @@ const About = () => {
                   Germany(Italy, France....). But they have no plans for what
                   they will do in that Germany'.{" "}
                 </p>{" "}
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   This may sound ridiculous to some, but it's true. I knew a man
                   who took 4(!) years to get from Eritrea to Westphalia. He
@@ -217,7 +217,7 @@ const About = () => {
                   what to do next.That is, he had been programmed to stop
                   fighting at the very moment when the fight was due to begin.
                 </p>{" "}
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   Reaching another country was the end - that was it, I wanted
                   to come, I arrived, the programme was over. And when
@@ -227,7 +227,7 @@ const About = () => {
                   which direction they want to go. Although many of them are
                   talented, many have decent potential to discover themselves.
                 </p>{" "}
-                <p>
+                <p className={styles.pIndent}>
                   For Germany, this represents a loss of billions. The country
                   is full of hostels for refugees who, after a short period,
                   become disillusioned with everything. They lose their old
@@ -239,7 +239,7 @@ const About = () => {
                   later it is inherited by their children, for whom it becomes
                   the norm of behaviour.{" "}
                 </p>
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   There is such an expression - the American Dream. It means
                   that people are sure that they can come to America, be poor
@@ -254,7 +254,7 @@ const About = () => {
                   work at it, like they did in America, the myth of the American
                   Dream did not arise by itself.{" "}
                 </p>
-                <p>
+                <p className={styles.pIndent}>
                   Germany is a country where your dreams for a decent life can
                   be fulfilled, and it has everything for that. You just have to
                   allocate your energy properly and be honest with yourself and
@@ -263,7 +263,7 @@ const About = () => {
                   did not know about in your homeland, because your homeland at
                   this moment in time is at another level of social development.
                 </p>
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   Modern Germany has developed as a country of newcomers -
                   refugees, guest workers, migrants... Immediately after the
@@ -273,7 +273,7 @@ const About = () => {
                   Jews, Africans and Ukrainians This is likely to continue.
                   Unless something extraordinary happens.{" "}
                 </p>
-                <p>
+                <p className={styles.pIndent}>
                   All of the above explains why I decided to do this project. It
                   is something in between a social and cultural project. On the
                   one hand it should help those who come to Germany. On the one
@@ -287,7 +287,7 @@ const About = () => {
                   where people know at a glance what it is all about, that they
                   can be helped here. It is trustworthy and welcoming.
                 </p>{" "}
-                <p>
+                <p className={styles.pIndent}>
                   {" "}
                   The site should contain positive examples from refugees'
                   lives. These examples can be a landmark, a beacon in the
