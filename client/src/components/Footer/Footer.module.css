@@ -1,20 +1,41 @@
 .wrapper{
 display: flex;
-/* height: 70px; */
-
+ height: 50px; 
+font-family: "Rain Shower";
+width: 100%;
+border: none;
+background-color: rgba(221,221,221,1);
+box-shadow: inset 8px -10px 15px -6px
 }
 
 .childLeft{
     flex:1;
+    font-size: 18px;
+ margin-top: 20px; 
+ 
+ margin-left: 10px;   
 }
+.childGit{
+    flex: 1;
+}
+
+.childEmail{
+    flex:1;
+    margin-left: 0px;
+}
+
 .childRight{
     flex:1;
+    font-size: 30px;
+    margin-left: 80px;
+    
 }
 
 .link{
     display: flex;
     align-items: center;
     margin-top: 10px;
+    font-size: 30px;
 }
 
 .linkText{

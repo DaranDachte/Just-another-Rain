@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer/Footer";
 
 import Card from "../components/Card/Card";
 import Barysh from "../assets/img/Barysh.jpg";
@@ -20,7 +21,7 @@ const Gallery = () => {
   };
 
   return (
-    
+    <>
     <div
       className={styles.container}
       onClick={() => setActiveCardIndex(0)}
@@ -133,6 +134,8 @@ In 1968, the 25-year-old Vangelis wished to further his career and, amidst the p
         isActive={activeCardIndex === 9}
       />
     </div>
+    <Footer/>
+    </>
   );
 };
 
