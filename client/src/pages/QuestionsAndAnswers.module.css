@@ -1,6 +1,8 @@
 .wrapper{
 display: flex;
 justify-content: space-between;
+background-image: url("../assets/img/bg1.jpg");
+    background-size:33cm 24cm;
 }
 .askButton{
     width: 150px;
