@@ -12,6 +12,7 @@ import Hugo from "../assets/img/Hugo.jpg";
 import Lang from "../assets/img/Lang.jpg";
 import Marlene from "../assets/img/Marlene.jpg";
 import Vangelis from "../assets/img/Vangelis.jpg";
+
 import styles from "./Gallery.module.css";
 
 const Gallery = () => {
