@@ -1,6 +1,6 @@
 import styles from "./Welcome.module.css";
 import { useNavigate } from "react-router-dom";
-import video from "../assets/videos/just.mp4";
+import video from "../assets/videos/Title.mp4";
 
 const Welcome = () => {
   const navigate = useNavigate();
