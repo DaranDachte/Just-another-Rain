@@ -55,9 +55,12 @@
     animation-timing-function: linear;
     animation-delay: 2s;
     animation-fill-mode: forwards;
+    color:#f3401f; 
     /* transform: translate(50%, 50%); */
   }
-
+ .text:hover{
+  font-size: 50px;
+ }
   
   .cloudAnimation{
     animation-name: cloud-animation;
