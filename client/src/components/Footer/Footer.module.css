@@ -1,45 +1,47 @@
 .wrapper{
 display: flex;
- height: 40px; 
+ height: 50px; 
 font-family: "Rain Shower";
 width: 100%;
 border: none;
-background-color: rgba(221,221,221,1);
-box-shadow: inset 8px -10px 15px -6px
+background-color:#b8e6eb;
 }
 
 .childLeft{
     flex:1;
     font-size: 18px;
  margin-top: 20px; 
- 
- margin-left: 10px;   
+  margin-left: 10px;   
 }
+
 .childGit{
     flex: 1;
+ 
+   
 }
 
 .childEmail{
     flex:1;
-    margin-left: 0px;
-}
+    }
 
 .childRight{
     flex:1;
-    font-size: 30px;
-    margin-left: 80px;
-    
 }
 
 .link{
     display: flex;
-    align-items: center;
     margin-top: 10px;
-    font-size: 30px;
+    padding-left: 35px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+     width: 150px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(51,230,129,1) 0%, rgba(28,221,66,1) 7%, rgba(148,225,232,1) 88%, rgba(137,223,238,1) 100%, rgba(0,212,255,1) 100%);
+    box-shadow: 3px -2px 8px 0px rgba(0,0,0,0.75);
 }
 
 .linkText{
-    margin-left: 5px;
+ 
 }
 
 .flicker {

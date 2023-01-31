@@ -7,22 +7,24 @@ const Footer = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.childLeft}>
-        <p className={styles.flicker}>Created by Daran Dachte</p> 
-        </div>
-        <div className={styles.childGit}><a
+        <p className={styles.flicker}>Created by Daran Dachte</p>
+      </div>
+      <div className={styles.childGit}>
+        <a
           className={styles.link}
           href="https://github.com/DaranDachte"
           target="_blank"
           rel="noreferrer"
         >
           <AiFillGithub />
+
           <p className={styles.linkText}>GitHub</p>
         </a>
-        </div>
-        <div className={styles.childEmail}>
+      </div>
+      <div className={styles.childEmail}>
         <a href="mailto:darandachte@gmail.com" className={styles.link}>
           <AiOutlineMail />
-          <p className={styles.centerText} >Send Email</p>
+          <p className={styles.centerText}>Send Email</p>
         </a>
       </div>
       <div className={styles.childRight}>
@@ -33,7 +35,7 @@ const Footer = () => {
           target="_blank"
         >
           <BiDonateHeart />
-          <p className={styles.linkText} >Donate</p>
+          <p className={styles.linkText}>Donate</p>
         </a>
       </div>
     </div>
