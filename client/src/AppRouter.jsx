@@ -6,7 +6,7 @@ import TestsNewsDonations from "./pages/TestsNewsDonations";
 import QuestionsAndAnswers from "./pages/QuestionsAndAnswers";
 import Gallery from "./pages/Gallery";
 import Welcome from "./pages/Welcome";
-
+import Notfound from "./pages/Notfound";
 const AppRouter = () => {
   return (
     <div>
@@ -18,6 +18,7 @@ const AppRouter = () => {
         <Route path="/tests_news_donations" element={<TestsNewsDonations />} />
         <Route path="/questions_and_answers" element={<QuestionsAndAnswers />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="*" element={<Notfound />} />
       </Routes>
     </div>
   );

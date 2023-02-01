@@ -49,7 +49,6 @@
     left: 50%;
     top:  50%;
     width: 100%;
-    opacity: 0;
     animation-name: text-animation;
     animation-duration: 3s;
     animation-timing-function: linear;
