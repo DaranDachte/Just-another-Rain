@@ -15,13 +15,13 @@
         width: 200px;
         height: 80px;
         position: absolute;
-        margin-left: 1020px;
+        margin-left: 1000px;
         margin-top: 470px;
         border-radius: 5px;
         background-color: #139639;
         padding: 10px;
-    box-shadow:  4px 10px 14px 0px rgba(0,0,0,0.7);
-    font-size: 12px;
+       box-shadow:  4px 10px 14px 0px rgba(0,0,0,0.7);
+      font-size: 12px;
 
         
     }

@@ -1,0 +1,11 @@
+.wrapper{
+    position: relative;
+    height: 93vh;
+         }
+
+
+.news{
+    position: absolute;
+    right: 10px;
+    top:30px;
+    }
