@@ -48,16 +48,8 @@ const TestList = () => {
         title="sdfgfsfsdfsdf"
         link="asdfsdfsdfsdfds"
       />
-      <TestItem
-        description="sdfsdfsdfsdf"
-        title="sdfgfsfsdfsdf"
-        link="asdfsdfsdfsdfds"
-      />
-      <TestItem
-        description="sdfsdfsdfsdf"
-        title="sdfgfsfsdfsdf"
-        link="asdfsdfsdfsdfds"
-      />
+   
+    
     </div>
   );
 };

@@ -1,6 +1,9 @@
 .wrapper{
     position: relative;
     height: 93vh;
+    background-image: url("../assets/img/bg1.jpg");
+    background-size: 33cm 30cm;
+    background-position: top;
          }
 
 
