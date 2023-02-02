@@ -5,3 +5,9 @@
 .container>*{
     margin: 10px;
 }
+.title{
+    width: 800px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -70px;
+}
