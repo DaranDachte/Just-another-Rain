@@ -100,9 +100,7 @@ const About = () => {
                 </p>
                 <p className={styles.pIndent}>
                   The{" "}
-                  <NavLink to="/tests_news_donations">
-                    Tests News Donations
-                  </NavLink>{" "}
+                  <NavLink to="/tests_and_donations">Tests and News</NavLink>{" "}
                   page was designed to provide positive news about refugees. It
                   will help refugees themselves to be on a positive note and it
                   will also help others to see refugees in a positive light.
