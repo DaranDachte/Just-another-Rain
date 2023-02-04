@@ -30,7 +30,7 @@ const NewsList = () => {
         />
         <NewsItem
           country="Norway 🇳🇴️"
-          language="Ukrainian 🇺🇦️"
+          language="ukrainian 🇺🇦️"
           description="A 17-year-old Ukrainian refugee learned the Norwegian language in record time."
           link="https://life.pravda.com.ua/society/2023/02/1/252648/"
         />

@@ -1,6 +1,17 @@
 .wrapper{
     width: 200px;
-    padding:20px;
+    padding:10px;
     border-radius: 5px;
     border:1px solid grey;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(255,255,255, 0.3)   ;
+}
+
+.description{
+font-size: 12px;
+
+}
+.link{
+    font-size: 14px;
 }

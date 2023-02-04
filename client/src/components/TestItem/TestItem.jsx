@@ -4,8 +4,8 @@ const TestItem = ({ title, description, link }) => {
   return (
   <div className={styles.wrapper}>
     <h3>{title}</h3>
-    <h4>{description}</h4>
-    <a href={link} target="_blank" rel="noreferrer">Learn more.</a>
+     <p className={styles.description}> {description}</p>
+    <a className={styles.link} href={link} target="_blank" rel="noreferrer">Pass the test</a>
     </div>
   );
   
