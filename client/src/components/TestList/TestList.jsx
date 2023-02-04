@@ -34,24 +34,24 @@ const TestList = () => {
           link="https://mozok.ua/depressiya/testy/item/2713-test-na-depressiyu"
         />
         <TestItem
-          description="sdfsdfsdfsdf"
-          title="sdfgfsfsdfsdf"
-          link="asdfsdfsdfsdfds"
+          title="🇺🇸🇬🇧️️  Beck Depression Inventory BDI-II"
+          description="The Beck Depression Inventory (BDI) is a 21-item, self-report rating inventory that measures characteristic attitudes and symptoms of depression). Individual questions of the BDI assess mood, pessimism, sense of failure, self-dissatisfaction, guilt, punishment, self-dislike, self-accusation, suicidal ideas, crying, irritability, social withdrawal, body image, work difficulties, insomnia , fatigue , appetite, weight loss, bodily preoccupation, and loss of libido."
+          link="https://deprese.euzona.cz/en-index.php"
         />
         <TestItem
-          description="sdfsdfsdfsdf"
-          title="sdfgfsfsdfsdf"
-          link="asdfsdfsdfsdfds"
+          title="🇩🇪️ Depressionstest nach Beck"
+          description="Dieser Fragebogen enthält 21 Gruppen von Aussagen. Bitte lesen Sie jede Gruppe sorgfältig durch.Suchen Sie dann die eine Aussage in jeder Gruppe heraus, die am besten beschreibt, wie Sie sich in dieser Woche einschliesslich heute gefühlt haben und markieren Sie die dazugehörige Aussage."
+          link="https://osz-zuerich.ch/service/tests/depressionstest/#undefined"
         />
         <TestItem
-          description="sdfsdfsdfsdf"
-          title="sdfgfsfsdfsdf"
-          link="asdfsdfsdfsdfds"
+          title="Inventario de Depresión de Beck BDI-II"
+          description="El Inventario de Depresión de Beck (BDI, BDI-II), creado por el psiquiatra, investigador y fundador de la Terapia Cognitiva, Aaron T. Beck, es un cuestionario autoadministrado que consta de 21 preguntas de respuesta múltiple. Es uno de los instrumentos más comúnmente utilizados para medir la severidad de una depresión. Las versiones más actuales de este cuestionario pueden ser utilizadas en personas de a partir de 13 años de edad."
+          link="https://deprese.euzona.cz/es-index.php"
         />
         <TestItem
-          description="sdfsdfsdfsdf"
-          title="sdfgfsfsdfsdf"
-          link="asdfsdfsdfsdfds"
+          title="🇺🇦️ Шкала депресії Бека BDI-II"
+          description="Шкала депресії Бека використовується для самодіагностики важкості депресії і складається з 21 питання. Вони відображують окремі симптоми і негативні думки, які тією чи іншою мірою проявляються у людей з депресією — настрій, песимізм, почуття неспроможності, незадоволеність, почуття провини, почуття, що буду покараний, відраза до самого себе, ідеї самозвинувачення, суїцидальні думки, сльозливість, дратівливість, порушення соціальних зв'язків, нерішучість, образ тіла, втрата працездатності, порушення сну, стомлюваність, втрата апетиту, втрата ваги, охоплення тілесними почуттями, втрата лібідо"
+          link="https://deprese.euzona.cz/uk-index.php"
         />
       </div>
     </>
