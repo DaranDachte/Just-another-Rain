@@ -6,6 +6,7 @@ import video3 from "../assets/videos/KyrgystanRain.mp4";
 import video4 from "../assets/videos/AustraliaRain.mp4";
 import video5 from "../assets/videos/GrowUp.mp4";
 import styles from "./Diary.module.css";
+
 import { ReactComponent as HollandFlag } from "../assets/img/holland_flag.svg";
 import { ReactComponent as Tulip } from "../assets/img/tulip.svg";
 import { ReactComponent as Sun } from "../assets/img/sun.svg";
@@ -40,7 +41,6 @@ export default function Diary() {
           <video
             className={styles.diaryVideo}
             src={video1}
-            muted
             controls
             onEnded={onEndedHandler}
           />
@@ -64,7 +64,6 @@ export default function Diary() {
             className={styles.diaryVideo}
             src={video2}
             controls
-            muted
             // onEnded={onEndedHandler}
           />
           {/* {isScrollVisible && <ScrollDown className={styles.scrollDown} />} */}
@@ -74,7 +73,6 @@ export default function Diary() {
             className={styles.diaryVideo}
             src={video3}
             controls
-            muted
             onEnded={onEndedHandler}
           />
           {/* {isScrollVisible && <ScrollDown className={styles.scrollDown} />} */}
@@ -84,16 +82,15 @@ export default function Diary() {
             className={styles.diaryVideo}
             src={video4}
             controls
-            muted
             onEnded={onEndedHandler}
           />
           {/* {isScrollVisible && <ScrollDown className={styles.scrollDown} />} */}
         </div>
         <div className={styles.diaryVideoWrapper}>
-          <video className={styles.diaryVideo} src={video5} controls muted />
+          <video className={styles.diaryVideo} src={video5} controls />
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }

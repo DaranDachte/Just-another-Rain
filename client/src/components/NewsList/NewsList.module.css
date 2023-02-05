@@ -4,6 +4,7 @@ margin-top:20px;
 
 .container {
     height: 500px;
+    width: 200px;
     overflow: auto;
     background-color:#ebeeed;
     box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
@@ -12,6 +13,6 @@ margin-top:20px;
 .newsTitle{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 18px;
+    font-size: 14px;
     color:#f3401f;
       }

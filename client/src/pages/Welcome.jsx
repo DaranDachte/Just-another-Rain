@@ -1,9 +1,22 @@
 import styles from "./Welcome.module.css";
 import { useNavigate } from "react-router-dom";
 import video from "../assets/videos/Title.mp4";
+import { useRef, useEffect } from "react";
 
 const Welcome = () => {
   const navigate = useNavigate();
+
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.play();
+    }
+    
+    const tmp = audioRef.current;
+
+    return () => tmp.pause();
+  }, []);
 
   const delay = (func, time) =>
     setTimeout(() => {
@@ -26,12 +39,9 @@ const Welcome = () => {
           <span>N</span>
         </h1>
       </div>
-      {/* <div class="audio">
-        <audio controls loop>
-          {" "}
-          <source src="./img/liven_groza_grom.mp3" type="audio/mpeg" />
-        </audio>
-      </div> */}
+      <audio ref={audioRef}>
+        <source src="../assets/audios/liven_groza_grom.mp3" type="audio/mpeg" />
+      </audio>
     </div>
   );
 };

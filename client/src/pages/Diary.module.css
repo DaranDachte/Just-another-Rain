@@ -15,7 +15,7 @@
 
 .diaryVideoWrapper{
     position:relative;
-    height: 100vh;
+    height: 106vh;
     scroll-snap-align: start;
 }
 
