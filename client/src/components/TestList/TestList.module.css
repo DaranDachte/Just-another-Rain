@@ -11,3 +11,22 @@
     font-family: 'Times New Roman', Times, serif;
     margin-top: -70px;
 }
+
+.copy{
+    display: inline-flex;
+    align-items: center;
+}
+.input{
+    width: 280px;
+}
+
+.copied{
+    display: flex;
+    align-items:center ;
+    color:green;
+}
+
+.pointer{
+    cursor: pointer;
+    color:green
+}

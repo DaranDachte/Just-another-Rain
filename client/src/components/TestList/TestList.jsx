@@ -1,16 +1,43 @@
 import TestItem from "../TestItem";
 import styles from "./TestList.module.css";
+import { AiFillCopy } from "react-icons/ai";
+import { TiTick } from "react-icons/ti";
+import { useClipboard } from "use-clipboard-copy";
+import { useState } from "react";
+
 const TestList = () => {
+  const [copied, setCopied] = useState(false);
+  const { target, copy } = useClipboard();
+
+  const onClickHandler = () => {
+    setCopied(true);
+    copy();
+  };
+
   return (
     <>
       <div className={styles.title}>
         <h2>Depression Tests</h2>
-        <p>
+        <span>
           Warning! If you find any signs of depression after taking these tests,
           copy and Google this phrase. It means finding psychological help near
           where you live.
-        </p>
-        <p>Hilfe von einem Psychologen in meiner Nähe</p>
+        </span>
+        <div className={styles.copy}>
+          <input
+            className={styles.input}
+            ref={target}
+            value=" Hilfe von einem Psychologen in meiner Nähe"
+            disabled
+          />
+          <AiFillCopy className={styles.pointer} onClick={onClickHandler} />
+          {copied && (
+            <div className={styles.copied}>
+              <TiTick />
+              <p>Copied</p>
+            </div>
+          )}
+        </div>
       </div>
       <div className={styles.container}>
         <TestItem
