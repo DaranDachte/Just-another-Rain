@@ -9,20 +9,20 @@
     }
     
     .container > div{
-        margin: 10px;
+        margin: 50px;
     }
 
     .attention{
         width: 200px;
-        height: 80px;
+        height: 50px;
         position: absolute;
         margin-left: 1000px;
-        margin-top: 470px;
+        margin-top: 500px;
         border-radius: 5px;
         background-color:rgba(19,150, 57, 0.9);
         padding: 10px;
        box-shadow:  4px 10px 14px 0px rgba(146, 133, 133, 0.7);
-      font-size: 12px;
+      font-size: 10px;
 
         
     }
