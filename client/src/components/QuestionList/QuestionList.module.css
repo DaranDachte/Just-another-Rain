@@ -4,11 +4,12 @@
         justify-content: center; 
         flex-direction: column;
         font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
 
     }
     
     .container > div{
-        margin: 50px;
+        margin: 10px;
     }
 
     .attention{
@@ -18,9 +19,9 @@
         margin-left: 1000px;
         margin-top: 470px;
         border-radius: 5px;
-        background-color: #139639;
+        background-color:rgba(19,150, 57, 0.9);
         padding: 10px;
-       box-shadow:  4px 10px 14px 0px rgba(0,0,0,0.7);
+       box-shadow:  4px 10px 14px 0px rgba(146, 133, 133, 0.7);
       font-size: 12px;
 
         
