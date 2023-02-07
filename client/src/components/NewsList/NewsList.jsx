@@ -17,7 +17,7 @@ const NewsList = () => {
           link="http://https://www.theguardian.com/world/2018/may/28/spider-man-of-paris-to-get-french-citizenship-after-rescuing-child"
         />
         <NewsItem
-          country="Germany 🇩🇪️"
+          country="Germany🇩🇪️"
           language="german 🇩🇪"
           description="Angolan refugee stopped a burning bus on the A2 motorway and saved the lives of 66 people."
           link="https://dorsten-online.de/andre-tiago-manuel-ist-schutzengel-auf-der-a2/"
