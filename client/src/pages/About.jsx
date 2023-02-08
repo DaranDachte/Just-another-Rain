@@ -1,25 +1,20 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import Footer from "../components/Footer/Footer";
 import styles from "./About.module.css";
 import ToggleVisibility from "./ToggleVisibility";
 import { useState } from "react";
 import hardSnow from "../assets/videos/hard_snow.mp4";
 import { NavLink } from "react-router-dom";
+import Footer from "../components/Footer";
+
 const About = () => {
   const [version, setActiveVersion] = useState(0);
   return (
     <>
-      <div className={styles.aboutBody}>
+      <div className={styles.wrapper}>
         <Navigation />
 
-        <video
-          className={styles.video}
-          src={hardSnow}
-          autoPlay
-          muted
-          loop
-        ></video>
+        <video className={styles.video} src={hardSnow} autoPlay muted loop />
 
         <div className={styles.aboutProject}>
           Here you can get an idea of what this project is all about. What
@@ -301,8 +296,8 @@ const About = () => {
             }
           />
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
