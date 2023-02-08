@@ -4,7 +4,9 @@
     justify-content: center; 
     position: relative;
     background-image: url("../assets/img/bg1.jpg");
-    background-size:35cm 26cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
 }
 
 .container > div{

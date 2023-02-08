@@ -17,8 +17,8 @@ scroll-snap-align: end;
     border: none;
     border-radius: 10px;
     width: 150px;
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(51,230,129,1) 0%, rgba(28,221,66,1) 7%, rgba(148,225,232,1) 88%, rgba(137,223,238,1) 100%, rgba(0,212,255,1) 100%);
-    box-shadow: 3px -2px 8px 0px rgba(0,0,0,0.75);
+    /* background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(51,230,129,1) 0%, rgba(28,221,66,1) 7%, rgba(148,225,232,1) 88%, rgba(137,223,238,1) 100%, rgba(0,212,255,1) 100%);
+    box-shadow: 3px -2px 8px 0px rgba(0,0,0,0.75); */
 }
 
 .linkText{

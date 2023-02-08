@@ -2,7 +2,9 @@
 display: flex;
 justify-content: space-between;
 background-image: url("../assets/img/bg2.jpg");
-    background-size:33cm 24cm;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 .askButton{
     width: 150px;
