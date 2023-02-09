@@ -10,7 +10,6 @@ import styles from "./Diary.module.css";
 import { ReactComponent as HollandFlag } from "../assets/img/holland_flag.svg";
 import { ReactComponent as Tulip } from "../assets/img/tulip.svg";
 import { ReactComponent as Sun } from "../assets/img/sun.svg";
-import { ReactComponent as ScrollDown } from "../assets/img/scrolldown.svg";
 import Footer from "../components/Footer/Footer";
 
 export default function Diary() {
