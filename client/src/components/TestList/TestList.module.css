@@ -30,3 +30,17 @@
     cursor: pointer;
     color:green
 }
+
+.flicker{
+
+   
+        animation: flicker 5s linear infinite;
+     }
+
+
+@keyframes flicker {
+    0% { color:black}
+    25% { color:red}
+    75% { color:green }
+    100%{ color:black}
+  }

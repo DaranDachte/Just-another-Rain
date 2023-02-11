@@ -18,7 +18,7 @@ const TestList = () => {
     <>
       <div className={styles.title}>
         <h2>Depression Tests</h2>
-        <span>
+        <span className={styles.flicker}>
           Warning! If you find any signs of depression after taking these tests,
           copy and Google this phrase. It means finding psychological help near
           where you live.
