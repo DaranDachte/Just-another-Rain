@@ -54,13 +54,15 @@
     animation-timing-function: linear;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-    color:#f3401f; 
-    /* transform: translate(50%, 50%); */
-  }
+    opacity: 0;
+    color:rgb(243, 64, 31);
+   }
+  
  .text:hover{
   font-size: 50px;
  }
   
+
   .cloudAnimation{
     animation-name: cloud-animation;
     animation-duration: 3s;
@@ -69,13 +71,11 @@
     animation-fill-mode: forwards;
 }
 
-
   @keyframes cloud-animation {
     100% {
         opacity: 0;      
     }
   }
-
 
   @keyframes text-animation{
     100% {

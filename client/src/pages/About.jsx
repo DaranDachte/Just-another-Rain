@@ -45,7 +45,7 @@ const About = () => {
                   depression, a depressed state and as a consequence - failure.
                   One of the aims of the project is to show people that it is
                   just rain and nothing more. And in this weather, you can be
-                  successful and enjoy life The site is divided into several
+                  successful and enjoy life. The site is divided into several
                   pages, each of which has a specific purpose.
                 </p>
                 <p className={styles.pIndent}>
@@ -122,7 +122,7 @@ const About = () => {
               <>
                 <p className={styles.pIndent}>
                   {" "}
-                  "Hello, my name is Daran Daсhte. It so happens that I have
+                  Hello, my name is Daran Daсhte. It so happens that I have
                   been a refugee twice in my life. The first time was when I was
                   still a teenager. My family fled the war from the outskirts of
                   my homeland, where we were living at the time, to the capital.
@@ -290,7 +290,7 @@ const About = () => {
                   of refugees - someone sells drugs, someone uses them, someone
                   steals... All this creates a huge negative field, which
                   absorbs new people and from which it can be very difficult to
-                  get out. "
+                  get out. 
                 </p>
               </>
             }
