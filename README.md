@@ -7,4 +7,8 @@ In my work I used libraries such as:
 -React-scroll
 -Use-clipboard-copy
 -Yup
-…
+-Cors
+-Dotenv
+-Express
+-Mongoose
+
