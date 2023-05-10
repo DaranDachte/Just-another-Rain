@@ -3,7 +3,7 @@ In my work I used libraries such as:
 <ul>
 <li>React Hook Form</li>
 <li>React-paypal-js</li>
-<li>React-icons </li>>
+<li>React-icons </li>
 <li>React-player</li>
 <li>React-scroll</li>
 <li>Use-clipboard-copy</li>
